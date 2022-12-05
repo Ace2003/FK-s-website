@@ -119,6 +119,6 @@ html, body {
 .card .counter {
     display: flex;
     justify-content: space-around;
-    font-size: .15rem;
+    font-size: 15px;
     padding-top: 5px;
 }
