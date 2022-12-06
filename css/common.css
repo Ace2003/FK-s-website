@@ -65,7 +65,7 @@ html, body {
 @media(max-width: 768px) {
 .container {
     height: calc(100% - 50px);
-    width: 320px;
+    width: 350px;
     margin: 0 auto;
     overflow: auto;
     /* 为了让版心里面的子元素能够以左右布局的方式显示，使用 flex 布局 */
@@ -85,7 +85,7 @@ html, body {
 @media(max-width: 768px) {
 .container .container-intro {
     height: 100%;
-    width: 320px;
+    width: 350px;
 }
 }
 
@@ -101,7 +101,7 @@ html, body {
 @media(max-width: 768px) {
 .container .container-body {
     height: auto;
-    width: 320px;
+    width: 350px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
 }
