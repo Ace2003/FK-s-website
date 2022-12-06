@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>火删 &#8211; ( ^ v ^ )/</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_list.css">
+    <link rel="stylesheet" href="css/paging.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="image/log.png" alt="" style="position:relative;top:2px;">
+        <span class="title">FK's website</span>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-intro">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="image/head.jpg" alt="">
+                <!-- 用户名 -->
+                <h3>火删</h3>
+                <!-- 其它信息 -->
+                <a href="https://pic.imgdb.cn/item/638e1444b1fccdcd36faa703.png">Wechat</a>
+                <a href="https://pic.imgdb.cn/item/638e1478b1fccdcd36faea3f.jpg">Qq</a>
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>Article</span>
+                    <span>Ages</span>
+                    <span>Gender</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>19</span>
+                    <span>m</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-body">
+            <!-- 每个 blog 代表一篇博客 -->
+            <div class="page-1">
+                <div class="blog">
+                    <div class="title">第一篇博客</div>
+                    <div class="date">2022-2-16</div>
+                    <div class="desc">
+                        中国人的性情是喜欢调和折中的，譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶他们就来调和，愿意开窗了。
+                    </div>
+                    <a href="article/1.html" class="detail">View all&gt;&gt;</a>
+                </div>
+                <div class="blog">
+                    <div class="title">第二篇博客</div>
+                    <div class="date">2022-2-16</div>
+                    <div class="desc">
+                        中国人的性情是喜欢调和折中的，譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶他们就来调和，愿意开窗了。
+                    </div>
+                    <a href="article/2.html" class="detail">View all&gt;&gt;</a>
+                </div>
+            </div>    
+
+            <div class="page-2">
+            </div>
+		
+            <div class="page-3">
+            </div>
+	<div class="page-icon">
+	    <button class="firstPage" onclick="first_click()" ><img src="image/left-end.png"/></button>
+	    <button class="beforePage" onclick="prev_click()" ><img src="image/page-left.png"/></button>
+	    <button>第<input id="currentPage" onchange="choose_page()" type="text" value="1"/>页</button>
+	    <button>/&nbsp;&nbsp;&nbsp;共<input id="totalPage" type="button" value="3" readonly="readonly">页</button>
+	    <button class="nextPage" onclick="next_click()"><img src="image/page-right.png"/></button>
+	    <button class="lastPage" onclick="last_click()"><img src="image/right-end.png"/></button>			
+            </div>  
+            <script src="paging.js" type="text/javascript" charset="utf-8"></script>
+    </div>
+</body>
+</html>
