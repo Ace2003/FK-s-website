@@ -1,0 +1,43 @@
+.page-icon{
+	width: 1200px;
+	margin: 35px auto 0;
+                position: relative;
+                right: 27%;
+                font-size:0;
+	text-align:center;
+}
+.page-icon button {
+	border: none;
+	background-color: rgba(255,255,255,0);
+	padding:4px 10px 5px;
+	font-size:20px;
+                text-align:center;
+}
+.page-icon button:nth-child(3), .page-icon button:nth-child(4) {
+	cursor: default;
+}
+.page-icon button img {
+	width: 15px;
+	height: 15px;
+}
+#totalPage, #currentPage {
+	cursor: default;
+	border: none;
+	background-color: rgba(255,255,255,0);
+	padding:4px 10px 5px;
+	font-size:20PX;
+}
+#currentPage {
+	cursor: auto;
+	text-align: center;
+	width: 40px;
+}
+.page-1{
+	display: block;
+}
+.page-2, .page-3{
+	display: none;
+}
+hr {
+	opacity: 50%;
+}
