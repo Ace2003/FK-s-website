@@ -35,6 +35,6 @@ a:hover {
 a {
     text-decoration:none;
     position:fixed;
-    top:200px;
-    right:100px;
+    top:50%;
+    right:50%;
 }
