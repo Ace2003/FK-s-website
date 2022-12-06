@@ -19,6 +19,9 @@ html, body {
 @media(max-width: 768px) {
 html, body {
     background-image: url(../image/background_mobile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 }
 
