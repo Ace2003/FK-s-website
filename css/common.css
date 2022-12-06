@@ -62,11 +62,33 @@ html, body {
     justify-content: space-between;
 }
 
+@media(max-width: 768px) {
+.container {
+    height: calc(100% - 50px);
+    width: 350px;
+    margin: 0 auto;
+    overflow: auto;
+    /* 为了让版心里面的子元素能够以左右布局的方式显示，使用 flex 布局 */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+}
+}
+
 /* 信息栏样式 */
 .container .container-intro {
     height: 100%;
     width: 795px;
 }
+
+@media(max-width: 768px) {
+.container .container-intro {
+    height: 100%;
+    width: 300px;
+}
+}
+
 
 /* 正文栏样式 */
 .container .container-body {
@@ -74,6 +96,15 @@ html, body {
     width: 795px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
+}
+
+@media(max-width: 768px) {
+.container .container-body {
+    height: auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
 }
 
 /* 用户信息卡片，也会在多个页面中用到 */
