@@ -23,7 +23,7 @@
 	cursor: default;
 	border: none;
 	background-color: rgba(255,255,255,0);
-	padding:4px 10px 5px;
+        padding:30px 10px 0 0;
 	font-size:20PX;
 }
 #currentPage {
