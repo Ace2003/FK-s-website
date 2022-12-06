@@ -23,3 +23,18 @@
     text-indent: 2em;
     padding: 10px 0;
 }
+
+a:link {
+     color:white;
+}
+
+a:hover {
+       color:black;
+}
+
+a {
+    text-decoration:none;
+    position:fixed;
+    top:200px;
+    right:100px;
+}
