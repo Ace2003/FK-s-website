@@ -6,6 +6,16 @@
                 font-size:0;
 	text-align:center;
 }
+@media(max-width: 768px) {
+.page-icon{
+	width: 350px;
+	margin: 35px auto 0;
+                position: relative;
+                right: 27%;
+                font-size:0;
+	text-align:center;
+}
+}
 .page-icon button {
 	border: none;
 	background-color: rgba(255,255,255,0);
