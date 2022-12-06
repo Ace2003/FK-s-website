@@ -9,7 +9,9 @@
 @media(max-width: 768px) {
 .page-icon{
 	width: 350px;
-	margin: auto 0;
+	margin: 35px auto 0;
+        position: relative;
+        right: 25%;
         font-size:0;
 	text-align:center;
 }
