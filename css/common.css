@@ -16,6 +16,12 @@ html, body {
     background-size: cover;
 } 
 
+@media(max-width: 768px) {
+html, body {
+    background-image: url(../image/background_mobile.jpg);
+    }
+}
+
 /* 导航栏 */
 .nav {
     width: 100%;
