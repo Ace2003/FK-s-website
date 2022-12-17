@@ -45,17 +45,6 @@ html, body {
     margin-right: 10px;
 }
 
-@media(max-width: 768px) {
-#go  {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    top: 7px;
-    margin-left: 220px;
-    margin-right: 10px;
-}
-}
-
 /* 导航栏中的标题 */
 .nav .title {
     width: 120px;
