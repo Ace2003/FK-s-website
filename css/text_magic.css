@@ -11,7 +11,7 @@
 @media(max-width: 768px) {
 .text-magic {
     position: absolute;
-    top: 5%;
+    top: 4.7%;
     left: 125%;
     transform: translate(-50%, -50%) scale(2.4);
     width: 300px;
