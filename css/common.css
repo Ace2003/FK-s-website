@@ -49,8 +49,9 @@ html, body {
 #go  {
     width: 40px;
     height: 40px;
-    margin-left: 250px;
-    margin-right: 10px;
+    position: absolute;
+    top: 7px;
+    right:  2px;
 }
 }
 
