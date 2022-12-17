@@ -50,6 +50,20 @@ html, body {
     width: 120px;
 }
 
+/* 导航栏中的占位符 */
+.nav .spacer {
+    height: 40px;
+    width: calc(100% - 370px);
+}
+
+/* 导航栏中的链接 */
+.nav a {
+    width: 60px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
 /* 版心的样式 */
 .container {
     height: calc(100% - 50px);
