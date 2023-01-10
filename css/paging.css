@@ -1,8 +1,8 @@
 .page-icon{
 	width: auto;
 	margin: 0 auto;
-        display: block;
-        font-size:0;
+                display: block;
+                font-size:0;
 	text-align:center;
 }
 .page-icon button {
@@ -23,7 +23,7 @@
 	cursor: default;
 	border: none;
 	background-color: rgba(255,255,255,0);
-        padding:30px 10px 0 0;
+                padding:0;
 	font-size:20PX;
 }
 #currentPage {

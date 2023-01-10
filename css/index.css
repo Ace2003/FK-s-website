@@ -1,8 +1,8 @@
 /* 这个 CSS 专门针对博客列表页来设置样式 */
-
+/* padding: 10px 20px */
 .blog {
     width: 100%;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 
 /* 博客的标题 */
