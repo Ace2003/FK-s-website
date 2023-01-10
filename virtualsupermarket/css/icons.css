@@ -1,0 +1,17 @@
+.icons {
+          position: absolute;
+          top: 65%;
+          right: 14.5%;
+}
+.icons img {
+          width: 30px;
+          height: 30px;
+          margin: 0 10px 0 10px;
+}
+@media(max-width: 768px) {
+.icons {
+          position: absolute;
+          top: 60%;
+          right: 14.5%;
+}
+}
