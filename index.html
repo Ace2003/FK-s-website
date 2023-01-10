@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/paging.css">
+   <link rel="shortcut icon" href="heartbreak.ico" type="image/ico">
 </head>
 <body>
     <!-- 导航栏 -->
     <div class="nav">
-        <img src="image/log.png" alt="" style="position:relative;top:2px;">
+        <img src="image/log.png" alt="" style="position:relative;top:2px;" id="log">
         <span class="title">FK's website</span>
          <span class="spacer"></span>
         <a href="https://www.baidu.com"><img src="image/go.png" alt="" style="position:relative;top:2px;"></a>
+        <a href="https://www.baidu.com"><img src="image/play.png" alt="" style="position:relative;top:2px;"></a>
     </div>
     <!-- 版心 -->
     <div class="container">
-        <!-- 左侧区域，显示用户信息 -->
+        <!-- 上侧区域，显示用户信息 -->
         <div class="container-intro">
             <!-- 用户详情 -->
             <div class="card">
@@ -43,23 +45,23 @@
                 </div>
             </div>
         </div>
-        <!-- 右侧区域，显示博客列表 -->
+        <!-- 下侧区域，显示博客列表 -->
         <div class="container-body">
             <!-- 每个 blog 代表一篇博客 -->
             <div class="page-1">
                 <div class="blog">
-                    <div class="title">第一篇博客</div>
-                    <div class="date">2022-2-16</div>
+                    <div class="title">life养成游戏</div>
+                    <div class="date">2023-1-10</div>
                     <div class="desc">
-                        中国人的性情是喜欢调和折中的，譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶他们就来调和，愿意开窗了。
+                        “我妈在world上用细胞买了一个养成游戏，叫做life，生成了一个角色叫做曾超，19年了，我妈还在玩这个游戏”
                     </div>
                     <a href="article/1.html" class="detail">View all&gt;&gt;</a>
                 </div>
                 <div class="blog">
-                    <div class="title">第二篇博客</div>
+                    <div class="title">《Animals》的大纲</div>
                     <div class="date">2022-2-16</div>
                     <div class="desc">
-                        中国人的性情是喜欢调和折中的，譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶他们就来调和，愿意开窗了。
+                        简介 ​2023年的某天，地球上的人类突然发现自己多了类似于心灵感应的能力，经过科学家、神学家以及哲学家的研究，一致认为是地球上人类的总能量太高，觉醒了异能，科技的爆发式增长引起了能量的畸变，如果十年内不能找到能量值最高的人来领导人类，过高的总能量将导致全球范围内未知的心理疾病，可能引起人类灭绝。
                     </div>
                     <a href="article/2.html" class="detail">View all&gt;&gt;</a>
                 </div>
@@ -70,6 +72,7 @@
 		
             <div class="page-3">
             </div>
+
 	<div class="page-icon">
 	    <button class="firstPage" onclick="first_click()" ><img src="image/left-end.png"/></button>
 	    <button class="beforePage" onclick="prev_click()" ><img src="image/page-left.png"/></button>
